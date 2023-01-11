@@ -20,12 +20,12 @@
     flex:2; 
 }
 .header-line{
-    
+    padding-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: rgb(200, 242, 228); */
-    border-bottom: 1px solid #000;
+    background: linear-gradient(to right, #7d99f7 0%,#ffe677 100%);
+    /* border-bottom: 1px solid #000; */
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -39,10 +39,11 @@ opacity: 0.6;
     font-weight: 500;
     margin-right: 65px;
     font-size: 25px;
-    color: black;
+    color: rgb(0, 0, 0);
 
     transition: color 0.1s linear;
 }
+
 
 .nav-bar:hover{
     color: #c60303;
@@ -51,7 +52,7 @@ opacity: 0.6;
 /* =================Shop============== */
 
 :root {
-    --surface-color: #fff;
+    --surface-color: rgb(232, 230, 230);
     --curve: 40;
   }
   
@@ -63,7 +64,7 @@ opacity: 0.6;
   
   .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     margin: 4rem 5vw;
     padding: 0;
@@ -94,7 +95,7 @@ opacity: 0.6;
     border-radius: calc(var(--curve) * 1px);    
     background-color: var(--surface-color);      
     transform: translateY(100%);
-    transition: .2s ease-in-out;
+    transition: .4s ease-in-out;
   }
   
   .card:hover .card__overlay {
@@ -107,10 +108,10 @@ opacity: 0.6;
     align-items: center;
     gap: 2em;
     padding: 2em;
-    border-radius: calc(var(--curve) * 1px) 0 0 0;    
+    border-radius: calc(var(--curve) * 2px) 0 0 0;    
     background-color: var(--surface-color);
     transform: translateY(-100%);
-    transition: .2s ease-in-out;
+    transition: .4s ease-in-out;
   }
   
   .card__arc {
@@ -135,7 +136,7 @@ opacity: 0.6;
     flex-shrink: 0;
     width: 50px;
     height: 50px;      
-    border-radius: 50%;      
+    border-radius: 80%;      
   }
   
   .card__title {
@@ -147,7 +148,7 @@ opacity: 0.6;
   .card__tagline {
     display: block;
     /* margin: 1em 0; */
-    font-family: "MockFlowFont";  
+    font-family: 'Roboto';  
     font-size: .8em; 
     color: #000000;  
   }
@@ -161,7 +162,7 @@ opacity: 0.6;
     padding: 0 2em 2em;
     margin: 0;
     color: #000000;
-    font-family: "MockFlowFont";   
+    font-family: 'Roboto';   
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
@@ -186,13 +187,13 @@ opacity: 0.6;
 
   }
   .card_button{
-    background-color: rgb(17, 255, 0);
+    background-color: rgb(19, 169, 8);
     border-radius: 10px;
 
     transition: color 0.1s linear;
   }
   .card_button:hover{
-    color:rgb(252, 0, 0);
+    color:rgb(33, 33, 33);
     opacity: 0.9;
     background-color: rgb(16, 208, 2);
 
@@ -201,7 +202,7 @@ opacity: 0.6;
   /* ========================footer=============== */
   footer{
     margin: 0px;
-    background: linear-gradient(to right, #F64D4D 0%,#4D5EF6 100%)
+    background: linear-gradient(to right, #819eff 0%,#cfb542 100%)
     
     
   }
