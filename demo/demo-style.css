@@ -1,0 +1,18 @@
+
+.container-slide {
+    position: relative; 
+	width: 1000px;
+    /* top: 41%;  */
+    /* left: 50%; */
+    margin: 0 0 0 560px;
+	
+ }
+ .container-slide h2{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	left: 10px;
+	color: black;
+	font-size: 40px;
+	
+ }
