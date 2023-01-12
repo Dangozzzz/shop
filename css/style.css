@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 @font-face {
   font-family: 'Better Together';
   src: url('fonts/ofont.ru_Better Together.ttf');
@@ -124,14 +125,14 @@
 
 /* ==========main============ */
 .info h1{
-  font-family: "Rosalinda";
+  font-family: 'Marck Script', cursive;
   font-size: 50px;
   text-align: center;
   margin-bottom: 30px;
 
 }
 .info p{
-  font-family: "Rosalinda";
+  font-family: 'Marck Script', cursive;
   font-size: 30px;
   line-height: 60px;
   text-align: center;
