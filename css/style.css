@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @font-face {
   font-family: 'Better Together';
-  src: url(fonts/ofont.ru_Better\ Together.ttf);
+  src: url(/fonts/ofont.ru_Better Together.ttf);
 }
 @font-face {
   font-family: "Laser Plain";
-  src: url(fonts/ofont.ru_Laser\ Plain.ttf);
+  src: url(/fonts/ofont.ru_Laser Plain.ttf);
 }
 @font-face {
   font-family: "Meamury";
-  src: url(fonts/ofont.ru_Meamury.ttf);
+  src: url(/fonts/ofont.ru_Meamury.ttf);
 }
 @font-face {
   font-family: "Porcelain";
-  src: url(fonts/ofont.ru_Porcelain.ttf);
+  src: url(/fonts/ofont.ru_Porcelain.ttf);
 }
 @font-face {
   font-family:"Rosalinda" ;
-  src: url(fonts/ofont.ru_Rosalinda.ttf);
+  src: url(/fonts/ofont.ru_Rosalinda.ttf);
 }
 * {
   margin: 0px;
