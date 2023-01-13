@@ -8,6 +8,10 @@
 	<link rel="stylesheet" href="orbit-1.2.3.css">
 	<link rel="stylesheet" href="demo/demo-style.css">
 	<link rel="stylesheet" href="snow/dist/style.css">
+	<link rel="stylesheet" href="/menu.css">
+
+
+
 
 
 
@@ -19,6 +23,7 @@
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
 
 
 
@@ -56,37 +61,56 @@
 <body>
 
 	<header class="header" id="header">
-		<div class="container">
-			<div class="header-line" id="header-line">
-				<div class="logo">
-					<a href="index.html"><img src="logo/logo.png" alt="logo2023" width="100px" ></a>
-				</div>
-				<div class="nav ">
-					<a href="" class="nav-bar"><span><img src="icon/free-icon-buy-9285870.png" width="30px"
-								height="20px" alt=""> Товар</span></a>
-					<a href="" class="nav-bar"><span><img src="icon/free-icon-image-1077061.png" width="30px"
-								height="20px" alt=""> Галерея</span></a>
-					<a class="nav-bar" href=""><span><img src="icon/free-icon-information-1077065.png" width="30px"
-								height="20px" alt=""> О нас</span></a>
-								<div id="zatemnenie">
-									<div id="okno">
-									  <ul>
-										<li><a
-											href="https://vk.com/public216956643?fbclid=PAAabH_En2zZQu6iW5ahzj4AJpRg9hoc_EGB_3Z2YwPwQLPEH0mBazstiXWZw"><img
-												src="icon/Vector.svg" width="40px" height="40px" alt="ВК">Напишите мне в  Вконтакте</a></li>
-									<li><a href="https://instagram.com/v.christmas_2023?igshid=YmMyMTA2M2Y="><img
-												src="icon/instagram.svg" width="40px" height="40px" alt="Инста">Всем отвечу в Директе </a></li>
-									<li><a href=""><img src="icon/facebook-f-brands.svg" width="40px" height="40px" alt="">Временно не реализовано</a>
-									</li>
-									  </ul><br>
-									  <a href="#" class="close">Закрыть окно</a>
-									</div>
-								  </div>
-					<a href="#zatemnenie" class="nav-bar"><span><img src="icon/free-icon-chat-684808.png" width="30px"
-								height="20px" alt=""> Связь</span></a>
+		<div class="bg__header__line">
+			<div class="container">
+				<div class="header-line" id="header-line">
+					<div class="logo">
+						<a href="index.html"><img src="/logo/logo.png" alt="logo2023"></a>
+					</div>
+					<div class="container header__container">
+						<div class="menu-burger__header">
+							<span></span>
+						</div>
+						<nav class="header__nav">
+							<ul class="menu header__menu">
+								<li><a href="" id="menu" class="nav-bar"><span><img
+												src="/icon/free-icon-buy-9285870.png" width="30px" height="20px" alt="">
+											Товар</span></a></li>
+								<li><a href="" id="menu" class="nav-bar"><span><img
+												src="/icon/free-icon-image-1077061.png" width="30px" height="20px"
+												alt=""> Галерея</span></a></li>
+								<li><a class="nav-bar" id="menu" href=""><span><img
+												src="/icon/free-icon-information-1077065.png" width="30px" height="20px"
+												alt=""> О нас</span></a></li>
+								<li>
+					</div>
+					<!-- <div id="zatemnenie">
+						<div id="okno">
+							<ul>
+								<li><a
+										href="https://vk.com/public216956643?fbclid=PAAabH_En2zZQu6iW5ahzj4AJpRg9hoc_EGB_3Z2YwPwQLPEH0mBazstiXWZw"><img
+											src="/icon/Vector.svg" width="40px" height="40px" alt="ВК">Напишите мне
+										в Вконтакте</a></li>
+								<li><a href="https://instagram.com/v.christmas_2023?igshid=YmMyMTA2M2Y="><img
+											src="/icon/instagram.svg" width="40px" height="40px" alt="Инста">Всем
+										отвечу в Директе </a></li>
+								<li><a href=""><img src="/icon/facebook-f-brands.svg" width="40px" height="40px"
+											alt="">Временно не реализовано</a>
+								</li>
+							</ul><br>
+							<a href="#" class="close">Закрыть окно</a>
+						</div>
+					</div>
+					<a href="#zatemnenie" class="nav-bar"><span><img src="/icon/free-icon-chat-684808.png" width="30px"
+								height="20px" alt=""> Связь</span></a> -->
 				</div>
 			</div>
+			</li>
+
+			</ul>
+			</nav>
 		</div>
+ 
 	</header>
 	<main>
 		<div class="container">
@@ -536,6 +560,8 @@
 	<!-- pcvector -->
 	<script type="text/javascript" src="/templates/pcv/js/pcvector.js"></script>
 	<!-- /pcvector-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="menu.js"></script>
 </body>
 
 </html>
