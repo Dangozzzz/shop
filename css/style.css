@@ -20,6 +20,7 @@
   font-family:"Rosalinda" ;
   src: url('fonts/ofont.ru_Rosalinda.ttf');
 }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -28,9 +29,26 @@
 
 .container {
   max-width: 1900px;
-  box-sizing: border-box;
-	min-height: 100%;
+  
+	
 	padding-bottom: 90px;
+}
+@media(max-width:1800px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media(max-width:990px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media(max-width:767px) {
+  .container {
+    max-width: none;
+  }
 }
 
 .logo a {
