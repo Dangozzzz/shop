@@ -49,6 +49,10 @@
   .container {
     max-width: none;
   }
+.logo{
+	width: 100px;
+	height: 20px;
+	}
 }
 
 .logo a {
