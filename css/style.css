@@ -51,6 +51,10 @@
   }
 
 }
+.logo img{ 
+  max-width: 100%;
+  display: block;
+}
 
 .logo a {
   margin: 0px;
